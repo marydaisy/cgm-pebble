@@ -146,8 +146,8 @@ static const uint8_t BIGLOW_SNZ_MIN = 15;
 static const uint8_t MIDLOW_SNZ_MIN = 15;
 static const uint8_t LOW_SNZ_MIN = 15;
 static const uint8_t HIGH_SNZ_MIN = 30;
-static const uint8_t MIDHIGH_SNZ_MIN = 30;
-static const uint8_t BIGHIGH_SNZ_MIN = 30;
+static const uint8_t MIDHIGH_SNZ_MIN = 60;
+static const uint8_t BIGHIGH_SNZ_MIN = 90;
   
 // Vibration Levels; 0 = NONE; 1 = LOW; 2 = MEDIUM; 3 = HIGH
 // IF YOU DO NOT WANT A SPECIFIC VIBRATION, SET TO 0
