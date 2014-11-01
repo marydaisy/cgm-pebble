@@ -111,10 +111,10 @@ static const uint8_t TIMEAGO_BUFFER_SIZE = 10;
 // BG Ranges, MG/DL
 static const uint16_t SPECVALUE_BG_MGDL = 20;
 static const uint16_t SHOWLOW_BG_MGDL = 40;
-static const uint16_t HYPOLOW_BG_MGDL = 55;
-static const uint16_t BIGLOW_BG_MGDL = 60;
-static const uint16_t MIDLOW_BG_MGDL = 70;
-static const uint16_t LOW_BG_MGDL = 80;
+static const uint16_t HYPOLOW_BG_MGDL = 45;
+static const uint16_t BIGLOW_BG_MGDL = 50;
+static const uint16_t MIDLOW_BG_MGDL = 55;
+static const uint16_t LOW_BG_MGDL = 60;
 
 static const uint16_t HIGH_BG_MGDL = 180;
 static const uint16_t MIDHIGH_BG_MGDL = 240;
@@ -141,9 +141,9 @@ static const uint16_t SHOWHIGH_BG_MMOL = 222;
 // BG Snooze Times, in Minutes; controls when vibrate again
 // RANGE 0-240
 static const uint8_t SPECVALUE_SNZ_MIN = 30;
-static const uint8_t HYPOLOW_SNZ_MIN = 5;
-static const uint8_t BIGLOW_SNZ_MIN = 5;
-static const uint8_t MIDLOW_SNZ_MIN = 10;
+static const uint8_t HYPOLOW_SNZ_MIN = 15;
+static const uint8_t BIGLOW_SNZ_MIN = 15;
+static const uint8_t MIDLOW_SNZ_MIN = 15;
 static const uint8_t LOW_SNZ_MIN = 15;
 static const uint8_t HIGH_SNZ_MIN = 30;
 static const uint8_t MIDHIGH_SNZ_MIN = 30;
